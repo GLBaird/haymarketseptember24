@@ -1,0 +1,19 @@
+
+
+<person id="lb203839" status="fired">
+    <name>
+        <surname>Baird</surname>
+        <forename>Leon</forename>
+    </name>
+    <address>
+        <street>100 Silly House Lane</street>
+        <town>London</town>
+        <pcode>whatever</pcode>
+    </address>
+    <telephone>
+        <phone type="home">020 123 4565</phone>
+        <phone type="mobile">07860 123 456</phone>
+        <phone type="work">020 374 27474</phone>
+    </telephone>
+    <image src="images/leon.jpg" width="500" height="200" />
+</person>
