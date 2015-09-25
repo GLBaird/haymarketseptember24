@@ -67,13 +67,13 @@ nav a:hover {
 
 article {
     float: right;
-    width: 40%;
+    width: 50%;
     margin: 1em 10% 1em 0;
 }
 
 aside {
     float: left;
-    width: 30%;
+    width: 25%;
     margin: 1em 0 1em 10%;
 }
 
