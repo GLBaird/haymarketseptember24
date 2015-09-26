@@ -10,6 +10,7 @@
         
         <!-- Loads CSS files -->
         <link rel="stylesheet" href="css/styles.css">
+        
     </head>
     <body>
         
@@ -18,7 +19,8 @@
             <p>How to build a web page</p>
         </header>
         
-        <nav>
+        <nav id="menu">
+            <button onclick="toggleMenu()" title="Toggle mobile menu">Toggle Mobile</button>
             <ul>
                 <li><a id="home" href="index.html">Home</a></li>
                 <li><a id="about" href="#">About</a></li>
@@ -61,6 +63,7 @@
                 
                 <p>Here is a map:</p>
                 
+                <!-- removed map and video
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.777815521989!2d-0.32061329999998023!3d51.42958905000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b873c1b3a39%3A0xfff4542be6007dca!2sTeddington%2C+Greater+London+TW11+9BE!5e0!3m2!1sen!2suk!4v1443111247498" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 
                 <p>Here is a video file:</p>
@@ -71,6 +74,7 @@
                         <p>Please update to support HTML5 Video.</p>
                     </video>
                 </figure>
+                -->
                 
             </article>
             
@@ -101,6 +105,8 @@
             <p>&copy; Copyright Leon Baird 2015</p>
         </footer>
         
+        <!-- Load Javascript -->
+        <script src="js/script.js" type="text/javascript"></script>
     </body>
 </html>
 
